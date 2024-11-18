@@ -1,18 +1,18 @@
 const express = require('express');
 const path = require('path');
+const serverless = require('serverless-http');
 
 const app = express();
-const PORT = 3002;
 
-// Serve static files (CSS, datasets)
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files
+app.use(express.static(path.join(__dirname, '../public')));
 
-// Serve HTML file
+// Serve HTML
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+    res.sendFile(path.join(__dirname, '../views/index.html'));
 });
 
-// API to serve dataset links
+// API for datasets
 app.get('/api/datasets', (req, res) => {
     const datasets = [
         { name: "Population Data", file: "dataset1.csv", type: "CSV" },
@@ -29,8 +29,6 @@ app.get('/api/datasets', (req, res) => {
     res.json(datasets);
 });
 
-// Start server
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+// Export the serverless handler
+module.exports.handler = serverless(app);
 
