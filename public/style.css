@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,44 +7,64 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #0077cc;
+/* Banner Section */
+header .banner {
+    background-image: url('images/datasets-banner.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 4rem 1rem;
 }
 
-header h1 {
+header .banner h1 {
+    font-size: 2.5rem;
     margin: 0;
-    font-size: 2rem;
 }
 
-header p {
-    margin: 0.5rem 0 0;
+header .banner p {
     font-size: 1.2rem;
+    margin: 0.5rem 0 0;
 }
 
+/* Dataset Container */
 .dataset-container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
     background: white;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.dataset-container h2 {
+    text-align: center;
+    color: #0077cc;
+    font-size: 1.8rem;
+}
+
+/* Dataset List */
 .dataset-list {
     list-style: none;
     padding: 0;
+    margin: 1rem 0;
 }
 
 .dataset-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin: 0.5rem 0;
     padding: 0.5rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     background: #f9f9f9;
-    text-align: center;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.dataset-list li:hover {
+    background-color: #eef7ff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dataset-list li a {
@@ -56,6 +77,12 @@ header p {
     text-decoration: underline;
 }
 
+.dataset-list li i {
+    color: #0077cc;
+    font-size: 1.2rem;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
