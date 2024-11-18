@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
-    line-height: 1.6;
 }
 
 header {
@@ -12,53 +11,25 @@ header {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: relative;
-}
-
-.header-content {
-    position: relative;
-}
-
-.header-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    filter: brightness(0.8);
 }
 
 header h1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    font-size: 2.5rem;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
 }
 
 header p {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-    font-size: 1.2rem;
     margin: 0.5rem 0 0;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
 }
 
 .dataset-container {
     max-width: 800px;
     margin: 2rem auto;
-    padding: 1.5rem;
+    padding: 1rem;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.dataset-container h2 {
-    color: #0077cc;
-    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dataset-list {
@@ -72,22 +43,13 @@ header p {
     border: 1px solid #ddd;
     border-radius: 5px;
     background: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.dataset-list li i {
-    color: #0077cc;
-    font-size: 1.2rem;
+    text-align: center;
 }
 
 .dataset-list li a {
     text-decoration: none;
     color: #0077cc;
     font-size: 1rem;
-    font-weight: bold;
 }
 
 .dataset-list li a:hover {
@@ -100,9 +62,5 @@ footer {
     background: #333;
     color: white;
     margin-top: 2rem;
-}
-
-footer i {
-    color: red;
 }
 
