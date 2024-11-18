@@ -4,12 +4,16 @@ const serverless = require('serverless-http');
 
 const app = express();
 
+// Adjust path for public and views
+const publicPath = path.join(__dirname, '../public');
+const viewsPath = path.join(__dirname, '../views');
+
 // Serve static files
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(publicPath));
 
 // Serve HTML
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../views/index.html'));
+    res.sendFile(path.join(viewsPath, 'index.html'));
 });
 
 // API for datasets
