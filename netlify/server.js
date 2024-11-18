@@ -4,15 +4,15 @@ const serverless = require('serverless-http');
 const app = express();
 
 // Serve static files
-app.use(express.static("../public"));
+app.use(express.static("/var/task/public"));
 
 // Serve HTML
 app.get('/', (req, res) => {
-    res.sendFile("../views/index.html");
+    res.sendFile("/var/task/views/index.html");
 });
 
 // API for datasets
-app.get('/api/datasets', (req, res) => {
+app.get('/datasets', (req, res) => {
     const datasets = [
         { name: "Population Data", file: "dataset1.csv", type: "CSV" },
         { name: "Climate Change Stats", file: "dataset2.csv", type: "CSV" },
