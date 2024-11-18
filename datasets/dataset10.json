@@ -1,0 +1,7 @@
+[
+    {"StudentID": 1, "Name": "Alice", "MathScore": 85, "ReadingScore": 92},
+    {"StudentID": 2, "Name": "Bob", "MathScore": 78, "ReadingScore": 88},
+    {"StudentID": 3, "Name": "Charlie", "MathScore": 90, "ReadingScore": 85},
+    {"StudentID": 4, "Name": "Diana", "MathScore": 72, "ReadingScore": 80}
+]
+

@@ -1,0 +1,7 @@
+[
+    {"PatientID": 101, "Age": 34, "Diagnosis": "Hypertension", "TreatmentCost": 1200},
+    {"PatientID": 102, "Age": 58, "Diagnosis": "Diabetes", "TreatmentCost": 1500},
+    {"PatientID": 103, "Age": 42, "Diagnosis": "Asthma", "TreatmentCost": 800},
+    {"PatientID": 104, "Age": 65, "Diagnosis": "Arthritis", "TreatmentCost": 2000}
+]
+

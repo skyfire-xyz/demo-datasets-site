@@ -1,0 +1,7 @@
+[
+    {"ProductID": "P001", "Category": "Electronics", "Sales": 1500, "Revenue": 75000},
+    {"ProductID": "P002", "Category": "Clothing", "Sales": 3000, "Revenue": 45000},
+    {"ProductID": "P003", "Category": "Groceries", "Sales": 5000, "Revenue": 25000},
+    {"ProductID": "P004", "Category": "Books", "Sales": 800, "Revenue": 12000}
+]
+
