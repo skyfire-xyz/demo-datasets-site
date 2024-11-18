@@ -1,18 +1,23 @@
 const express = require('express');
+const path = require('path');
 const serverless = require('serverless-http');
 
 const app = express();
 
+// Adjust path for public and views
+const publicPath = path.join(__dirname, '../public');
+const viewsPath = path.join(__dirname, '../views');
+
 // Serve static files
-app.use(express.static("/var/task/public"));
+app.use(express.static(publicPath));
 
 // Serve HTML
 app.get('/', (req, res) => {
-    res.sendFile("/var/task/views/index.html");
+    res.sendFile(path.join(viewsPath, 'index.html'));
 });
 
 // API for datasets
-app.get('/datasets', (req, res) => {
+app.get('/api/datasets', (req, res) => {
     const datasets = [
         { name: "Population Data", file: "dataset1.csv", type: "CSV" },
         { name: "Climate Change Stats", file: "dataset2.csv", type: "CSV" },
