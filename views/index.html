@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Finder</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Download Datasets</h1>
+        <p>Choose from the links below to download datasets:</p>
+    </header>
+    <main>
+        <div class="dataset-container">
+            <ul class="dataset-list">
+                <!-- Dataset links will be dynamically inserted here -->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dataset Finder</p>
+    </footer>
+    <script>
+        // Fetch dataset links dynamically from the server
+        fetch('/api/datasets')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.querySelector('.dataset-list');
+                data.forEach(dataset => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `<a href="/datasets/${dataset.file}" download>${dataset.name} (${dataset.type})</a>`;
+                    list.appendChild(listItem);
+                });
+            })
+            .catch(err => console.error('Error fetching datasets:', err));
+    </script>
+</body>
+</html>
+
