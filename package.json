@@ -4,9 +4,9 @@
   "description": "A Node.js site to serve and download datasets dynamically.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node netlify/server.js",
     "build": "echo 'No build step needed for this static site.'",
-    "dev": "nodemon server.js",
+    "dev": "nodemon netlify/server.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
