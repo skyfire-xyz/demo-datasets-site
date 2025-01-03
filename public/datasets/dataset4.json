@@ -1,0 +1,32 @@
+[
+    {
+        "Country": "United States",
+        "GDP (Trillions USD)": 25.7,
+        "Unemployment Rate (%)": 3.6,
+        "Inflation Rate (%)": 3.2
+    },
+    {
+        "Country": "India",
+        "GDP (Trillions USD)": 3.7,
+        "Unemployment Rate (%)": 7.8,
+        "Inflation Rate (%)": 5.4
+    },
+    {
+        "Country": "Germany",
+        "GDP (Trillions USD)": 4.8,
+        "Unemployment Rate (%)": 4.2,
+        "Inflation Rate (%)": 2.9
+    },
+    {
+        "Country": "China",
+        "GDP (Trillions USD)": 17.3,
+        "Unemployment Rate (%)": 5.2,
+        "Inflation Rate (%)": 1.8
+    },
+    {
+        "Country": "Brazil",
+        "GDP (Trillions USD)": 2.1,
+        "Unemployment Rate (%)": 10.7,
+        "Inflation Rate (%)": 7.9
+    }
+]

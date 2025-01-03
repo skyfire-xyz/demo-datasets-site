@@ -1,0 +1,27 @@
+[
+    {
+        "Mode": "Air",
+        "Passengers (Millions)": 4000,
+        "CO2 Emissions (Million Tons)": 920
+    },
+    {
+        "Mode": "Train",
+        "Passengers (Millions)": 2500,
+        "CO2 Emissions (Million Tons)": 150
+    },
+    {
+        "Mode": "Bus",
+        "Passengers (Millions)": 3800,
+        "CO2 Emissions (Million Tons)": 500
+    },
+    {
+        "Mode": "Car",
+        "Passengers (Millions)": 12000,
+        "CO2 Emissions (Million Tons)": 3200
+    },
+    {
+        "Mode": "Bicycle",
+        "Passengers (Millions)": 300,
+        "CO2 Emissions (Million Tons)": 0
+    }
+]

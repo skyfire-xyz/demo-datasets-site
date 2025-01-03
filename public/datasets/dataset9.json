@@ -1,0 +1,32 @@
+[
+    {
+        "Region": "North America",
+        "Energy Source": "Renewables",
+        "Consumption (TWh)": 1500,
+        "Percentage Share (%)": 30
+    },
+    {
+        "Region": "Europe",
+        "Energy Source": "Coal",
+        "Consumption (TWh)": 800,
+        "Percentage Share (%)": 10
+    },
+    {
+        "Region": "Asia",
+        "Energy Source": "Gas",
+        "Consumption (TWh)": 2000,
+        "Percentage Share (%)": 40
+    },
+    {
+        "Region": "Africa",
+        "Energy Source": "Oil",
+        "Consumption (TWh)": 700,
+        "Percentage Share (%)": 20
+    },
+    {
+        "Region": "South America",
+        "Energy Source": "Hydro",
+        "Consumption (TWh)": 1200,
+        "Percentage Share (%)": 50
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "Year": 2000,
+        "CO2 Emissions (Million Tons)": 24437,
+        "Global Temperature Anomaly (°C)": 0.42
+    },
+    {
+        "Year": 2010,
+        "CO2 Emissions (Million Tons)": 30423,
+        "Global Temperature Anomaly (°C)": 0.63
+    },
+    {
+        "Year": 2020,
+        "CO2 Emissions (Million Tons)": 34789,
+        "Global Temperature Anomaly (°C)": 0.85
+    },
+    {
+        "Year": 2022,
+        "CO2 Emissions (Million Tons)": 35610,
+        "Global Temperature Anomaly (°C)": 0.91
+    }
+]

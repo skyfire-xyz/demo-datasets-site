@@ -1,0 +1,27 @@
+[
+    {
+        "Country": "United States",
+        "Year": 2023,
+        "Population": 331893745
+    },
+    {
+        "Country": "India",
+        "Year": 2023,
+        "Population": 1406631781
+    },
+    {
+        "Country": "China",
+        "Year": 2023,
+        "Population": 1411778724
+    },
+    {
+        "Country": "Brazil",
+        "Year": 2023,
+        "Population": 216422455
+    },
+    {
+        "Country": "Nigeria",
+        "Year": 2023,
+        "Population": 223804632
+    }
+]

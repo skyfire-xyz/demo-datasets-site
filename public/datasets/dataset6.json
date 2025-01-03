@@ -1,0 +1,27 @@
+[
+    {
+        "Platform": "Facebook",
+        "Monthly Active Users (Millions)": 2800,
+        "Growth Rate (%)": 1.5
+    },
+    {
+        "Platform": "Instagram",
+        "Monthly Active Users (Millions)": 2000,
+        "Growth Rate (%)": 4.3
+    },
+    {
+        "Platform": "TikTok",
+        "Monthly Active Users (Millions)": 1200,
+        "Growth Rate (%)": 12.7
+    },
+    {
+        "Platform": "Twitter",
+        "Monthly Active Users (Millions)": 450,
+        "Growth Rate (%)": 0.8
+    },
+    {
+        "Platform": "LinkedIn",
+        "Monthly Active Users (Millions)": 900,
+        "Growth Rate (%)": 3.4
+    }
+]
